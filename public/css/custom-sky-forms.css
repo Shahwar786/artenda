@@ -1,0 +1,717 @@
+/*Sky-Forms
+------------------------------------*/
+.sky-form {
+    font-size: 14px;
+}
+
+/*Contact Style*/
+.sky-form.contact-style {
+  border: none;
+}
+
+/*Comment Style*/
+.sky-form.comment-style,
+.sky-form.comment-style fieldset {
+  padding: 0;
+  border: none;
+  background: inherit;
+}
+
+.sky-form.comment-style input,
+.sky-form.comment-style textarea {
+  border: none;
+}
+
+.sky-form.comment-style input:focus,
+.sky-form.comment-style textarea:focus {
+  box-shadow: none;
+}
+
+/*Comment Style v2*/
+.sky-form.comment-style-v2,
+.sky-form.comment-style-v2 fieldset {
+  padding: 0;
+  border: none;
+  background: inherit;
+}
+
+.sky-form.comment-style-v2 input,
+.sky-form.comment-style-v2 textarea {
+  border: none;
+}
+
+.sky-form.comment-style-v2 input:focus,
+.sky-form.comment-style-v2 textarea:focus {
+  box-shadow: none;
+}
+
+.sky-form.comment-style-v2 .form-control {
+  padding: 20px 15px;
+}
+
+/*Sky Space*/
+.sky-form .sky-space-20 {
+  margin-bottom: 20px;
+}
+
+.sky-form .sky-space-30 {
+  margin-bottom: 30px;
+}
+
+/**/
+/* defaults */
+/**/
+.sky-form {
+  box-shadow: none;
+  border: none;
+}
+
+.sky-form header {
+  color: inherit;
+  display: block;
+  font-size: 20px;
+  background: #fff;
+  font-weight: 400;
+  padding: 8px 30px;
+}
+
+.sky-form fieldset.no-padding {
+  padding: 0;
+}
+
+.sky-form fieldset {
+  background: #fff;
+    padding-left: 0;
+}
+
+.sky-form footer {
+  background: #fff;
+  padding: 15px 0;
+}
+
+.sky-form a {
+  color: inherit;
+}
+
+.sky-form a.btn-u {
+  color: #fff;
+}
+
+.sky-form .input input {
+  height: 34px;
+  padding: 6px 12px;
+}
+
+.sky-form .input input,
+.sky-form .select select,
+.sky-form .textarea textarea {
+    height: 24px;
+    padding: 3px;
+    font-size: 14px;
+    color: #404040;
+    border-bottom: 1px solid #e0e0e2;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+
+.sky-form .select select {
+    height: 24px;
+    padding: 0 3px;
+    font-size: inherit;
+    margin-top: 1px;
+}
+
+.sky-form .select.year {
+    width: 58px;
+    min-width: 58px;
+}
+.sky-form .select.year select, .sky-form .select.currency select {
+    border-bottom: none;
+}
+
+.sky-form .select-multiple select {
+  height: auto;
+}
+
+/**/
+/* file inputs */
+/**/
+.sky-form .input-file .button {
+    height: 28px;
+    top: -4px;
+    right: 1px;
+    line-height: 27px;
+}
+.sky-form .input-file input[type=text] {
+    color: #909090;
+    font-style: italic;
+}
+
+/**/
+/* captcha inputs */
+/**/
+.sky-form .input-captcha img {
+  position: absolute;
+  top: 1px;
+  right: 1px;
+  border-left: 1px solid #e5e5e5;
+}
+
+
+/**/
+/* normal state */
+/**/
+/*
+.sky-form .input input,
+.sky-form .select select,
+.sky-form .textarea textarea,
+*/
+.sky-form .radio i,
+.sky-form .checkbox i,
+.sky-form .toggle i {
+  border-color: #bbb;
+}
+.sky-form .icon-append,
+.sky-form .icon-prepend {
+  border: none;
+}
+.sky-form .toggle i:before {
+  background-color: #999;
+}
+
+.sky-form .button {
+  background: #72c02c;
+}
+
+/**/
+/* toggles */
+/**/
+.sky-form .toggle {
+	font-weight: normal;
+}
+
+.sky-form .toggle i {
+  width: 54px;
+  height: 21px;
+  border-width: 1px;
+}
+.sky-form .toggle i:after {
+  top: 3px;
+}
+.sky-form .toggle i:before {
+  top: 5px;
+  right: 6px;
+}
+
+/*(remove Bootstrap 'radio, checkbox' margin-top)
+--------------------------------------------------*/
+.radio, .checkbox {
+  margin-top: 0;
+}
+
+/**/
+/* radios and checkboxes */
+/**/
+.sky-form .radio i,
+.sky-form .checkbox i {
+  width: 13px;
+  height: 13px;
+  border-width: 1px;
+    margin-top: 2px;
+}
+
+.sky-form .checkbox input + i:after {
+    top: 0;
+    left: -2px;
+  font: normal 10px FontAwesome;
+}
+
+/**/
+/* checked state */
+/**/
+.sky-form .radio input + i:after {
+    top: 3px;
+    left: 3px;
+  background-color: #999;
+}
+.sky-form .checkbox input + i:after {
+  color: #999;
+}
+.sky-form .radio input:checked + i,
+.sky-form .checkbox input:checked + i,
+.sky-form .toggle input:checked + i {
+  border-color: #999;
+}
+.sky-form .rating input:checked ~ label {
+  color: #72c02c;
+}
+
+/**/
+/* selects */
+/**/
+.sky-form .select i {
+  top: 10px;
+  width: 9px;
+  right: 0;
+  height: 6px;
+}
+.sky-form .select i:after,
+.sky-form .select i:before {
+  top: 4px;
+}
+.sky-form .select i:before {
+    top: -2px;
+  border-bottom: 4px solid #a0a0a2;
+}
+.sky-form .select i:after {
+    bottom: 12px;
+    border-top: 4px solid #a0a0a2;
+}
+.label-rounded .ui-slider-handle {
+  border-radius: 50% !important;
+}
+
+/**/
+/* icons */
+/**/
+.sky-form .icon-append,
+.sky-form .icon-prepend {
+  top: -3px;
+  height: 32px;
+  font-size: 13px;
+  line-height: 33px;
+  background: inherit;
+}
+.sky-form .icon-append {
+  right: 1px;
+  padding: 0 3px;
+  min-width: 34px;
+}
+
+.sky-form .icon-prepend {
+  left: 6px;
+  padding-right: 5px;
+}
+
+.sky-form .input .icon-prepend + input {
+    padding-left: 26px;
+}
+
+/**/
+/* focus state */
+/**/
+.sky-form .input input:focus,
+.sky-form .select select:focus,
+.sky-form .textarea textarea:focus {
+    border-color: #eeeef0;
+    background-color: #fbfbfd;
+    outline: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.sky-form .radio input:focus + i,
+.sky-form .checkbox input:focus + i,
+.sky-form .toggle input:focus + i {
+  border-color: #999;
+  box-shadow: none;
+}
+
+/**/
+/* hover state */
+/**/
+.sky-form .input:hover input,
+.sky-form .select:hover select,
+.sky-form .textarea:hover textarea {
+	border-color: #e0e0e2;
+}
+
+.sky-form .radio:hover i,
+.sky-form .checkbox:hover i,
+.sky-form .toggle:hover i,
+.sky-form .ui-slider-handle:hover {
+  border-color: #e0e0e2;
+}
+.sky-form .rating input + label:hover,
+.sky-form .rating input + label:hover ~ label {
+  color: #72c02c;
+}
+
+.sky-form .icon-append,
+.sky-form .icon-prepend {
+  color: #b3b3b3;
+}
+
+/**/
+/* disabled state */
+/**/
+.sky-form .input.state-disabled:hover input,
+.sky-form .select.state-disabled:hover select,
+.sky-form .textarea.state-disabled:hover textarea,
+.sky-form .radio.state-disabled:hover i,
+.sky-form .checkbox.state-disabled:hover i,
+.sky-form .toggle.state-disabled:hover i {
+  border-color: #bbb;
+}
+
+/**/
+/* datepicker */
+/**/
+.ui-datepicker-header {
+  padding: 10px 0;
+  font-size: 14px;
+}
+
+.ui-datepicker-inline {
+  border-width: 1px;
+}
+
+.ui-datepicker-inline .ui-datepicker-header {
+  line-height: 27px;
+}
+
+.ui-datepicker-prev,
+.ui-datepicker-next {
+  padding: 10px;
+  font-size: 14px;
+  line-height: 26px;
+}
+
+.ui-datepicker-calendar a {
+  border: 1px solid transparent;
+}
+
+.ui-datepicker-calendar .ui-state-active {
+  border: 1px solid #bbb;
+}
+.ui-datepicker-calendar a:hover {
+  background: inherit;
+  border: 1px solid #bbb;
+}
+
+.ui-datepicker-month {
+    width: 55px;
+}
+
+/**/
+/* bootstrap compatibility */
+/**/
+.sky-form button *,
+.sky-form button *:after,
+.sky-form button *:before {
+  margin: 0 auto;
+  padding: 0 auto;
+}
+
+.btn-u.button-uploading:after {
+  top: 6px;
+}
+.btn-u.btn-u-lg.button-uploading:after {
+  top: 10px;
+}
+.btn-u.btn-u-sm.button-uploading:after {
+  top: 3px;
+}
+.btn-u.btn-u-xs.button-uploading:after {
+  top: 2px;
+}
+
+.label {
+  padding: 0.2em 0 0.3em;
+}
+
+/*Fix for datepicker's responsive issue on resolution 1024x768*/
+/*.ui-datepicker-calendar a,*/
+.ui-datepicker-calendar span {
+  width: 26px;
+  /*color: #bfbfbf;*/
+}
+
+
+/* // CUSTOM */
+.nav {
+    margin: 50px 10px 0 20px;
+}
+@media (max-width: 992px) {
+    .nav {
+        margin: 0 10px 0 20px;
+    }
+    .header .logo img {
+        /*margin-left: 13px;*/
+        /*content: url('/img/logo_400-beta_no-footer.png');*/
+    }
+    .navbar-brand {
+        padding: 0;
+    }
+}
+@media (max-width: 768px) {
+    .navbar-brand {
+        padding-left: 15px;
+    }
+    .header .logo img {
+        /*margin-left: 27px;*/
+        /*content: url('/img/logo_400-beta_no-footer.png');*/
+    }
+}
+
+
+.form-horizontal .checkbox, .form-horizontal .checkbox-inline,
+.form-horizontal .radio,    .form-horizontal .radio-inline {
+    padding-top: 2px;
+    color: #606060;
+}
+
+.sky-form section {
+    margin-bottom: 3px;
+    min-height: 20px;
+}
+
+.sky-form label {
+    font-size: 14px ! important;
+}
+
+.sky-form .label.col {
+    padding-top: 4px;
+}
+
+.sky-form .col-12 {
+    width: 100%;
+}
+
+.sky-form textarea {
+    border: 1px solid #e0e0e2 ! important;
+    resize: vertical;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+label.currency, label.currency select {
+    max-width: 50px ! important;
+    width: 50px ! important;
+}
+
+label.currency i {
+    top: 13px ! important;
+    right: -8px ! important;
+}
+
+input.money {
+    text-align: right;
+}
+
+div[class*="-clone"] {
+    margin-bottom: 3px ! important;
+}
+
+i[class*="remove-"], .fa-question-circle {
+    cursor: pointer;
+}
+
+.form-group {
+    margin-bottom: 8px; /* H */
+}
+
+#deadline_group .icon-prepend {
+    cursor: pointer;
+    top: -4px;
+    left: -8px;
+    padding-right: 0;
+}
+
+#deadline_at {
+    padding-left: 25px;
+}
+
+input:read-only {
+    color: #b0b0b2 ! important;
+    background-color: transparent ! important;
+    cursor: not-allowed;
+}
+
+.error {
+    font-size: 12px;
+    font-weight: 400;
+    color: #ff8080;
+}
+
+.note-error {
+    font-size: 11px;
+    font-weight: 400;
+    padding: 0 5px;
+    color: #ffffff;
+    background-color: #ff8080;
+    width: 100%;
+}
+
+.input-group-addon {
+    border-left: none;
+    font-size: 14px;
+    background-color: #e0e0e2;
+}
+
+#reload-captcha {
+    font-size: 10px;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+img.form-thumb {
+    cursor: pointer;
+    max-height: 120px;
+    max-width: 120px;
+    border: 4px solid #ffffff;
+    box-shadow: 2px 2px 6px #606060;
+    -webkit-box-shadow: 2px 2px 6px #606060;
+    -moz-box-shadow: 2px 2px 6px #606060;
+}
+
+i.remove-image {
+    color: darkred;
+    position: relative;
+    top: -3px;
+    left: 11px;
+    text-shadow: 1px 1px 3px #909090;
+}
+
+/* // SELECT 2 */
+.custom-select2, .select2, .select2-container, .select2-container--default, .select2-container--below {
+    width: 100% ! important;
+}
+
+select, .select2-container--default, .select2-selection--single, .select2-selection--multiple, .select2-selection__rendered{
+    border-radius: 0 ! important;
+    border-top: none ! important;
+    border-left: none ! important;
+    border-right: none ! important;
+    border-color: #e0e0e2 ! important;
+    min-height: 30px;
+}
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+    line-height: 34px;
+}
+
+.select2-container--default .select2-selection--multiple .select2-selection__choice,
+.select2-container--default .select2-selection--single .select2-selection__choice {
+    /* Selected elements */
+    background-color: transparent;
+    border: none;
+    margin-top: 12px;
+}
+
+.select2-container--default .select2-selection--multiple .select2-selection__clear {
+    margin-right: 15px;
+    color: #606060;
+}
+
+.select2-container .select2-search--inline .select2-search__field {
+    margin-top: 12px;
+}
+
+.select2-selection__arrow {
+    display: none;
+}
+/* SELECT 2 // */
+
+
+/* // TENDERSEARCH */
+section.tendersearch .header-row {
+    border-bottom: 1px solid #232323;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+section.tendersearch h4 {
+    margin: 8px 0 12px;
+    font-size: 14px;
+    color: #606060;
+}
+
+section.tendersearch label {
+    padding-bottom: 0 ! important;
+    margin-bottom: 0 ! important;
+    line-height: 17px ! important;
+}
+
+section.tendersearch label.born-in {
+    line-height: 14px ! important;
+}
+
+section.tendersearch label.checkbox i {
+    top: 2px;
+}
+
+section.tendersearch label.select i {
+    top: 17px;
+}
+
+section.tendersearch label.checkbox {
+    padding-left: 20px;
+}
+
+section.tendersearch label.select {
+    top: -10px;
+}
+
+section.tendersearch .col {
+    padding-top: 0;
+}
+@media (max-width: 768px) {
+    section.tendersearch label.push-down {
+        line-height: 38px ! important;
+    }
+}
+/* TENDERSEARCH // */
+
+
+/* // PROFILE */
+section.profile label.select {
+    top: -5px;
+    margin-bottom: 0;
+}
+
+section.profile .col {
+    padding-top: 0;
+}
+@media (max-width: 768px) {
+    section.profile label.push-down {
+        line-height: 38px ! important;
+    }
+}
+.birthday .icon-prepend {
+    cursor: pointer;
+    top: -4px;
+    left: -8px;
+    padding-right: 0;
+}
+/* PROFILE // */
+
+
+span.button-hint {
+    font-size: 10px;
+    margin-left: 10px;
+    top: 3px;
+    position: relative
+}
+
+
+@media (max-width: 768px) {
+    /*
+    label {
+        font-weight: bold ! important;
+    }
+    */
+    .form-group {
+       margin-bottom: 25px;
+    }
+}
+
+@media (min-width: 768px) {
+    .modal-dialog {
+        margin: 120px auto;
+    }
+}

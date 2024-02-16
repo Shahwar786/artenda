@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'SSP';
+    src: url('../fonts/SourceSansPro-Light.woff2') format('woff2'),
+         url('../fonts/SourceSansPro-Light.ttf') format('truetype');
+    font-style: normal;
+    font-weight: 300;
+}
+@font-face {
+    font-family: 'SSP';
+    src: url('../fonts/SourceSansPro-Regular.woff2') format('woff2'),
+         url('../fonts/SourceSansPro-Regular.ttf') format('truetype');
+    font-style: normal;
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'SSP';
+    src: url('../fonts/SourceSansPro-Bold.woff2') format('woff2'),
+         url('../fonts/SourceSansPro-Bold.ttf') format('truetype');
+    font-style: normal;
+    font-weight: 700;
+}
+.ssp { font-family: 'SSP'; }
+.ssp-light { font-family: 'SSP'; font-weight: lighter; }
+
+
+@font-face{
+    font-family:"Verdana";
+    src:url("../fonts/Verdana-W05-Light.woff2") format("woff2"),
+    url("../fonts/Verdana-W05-Light.woff") format("woff");
+    font-style: normal;
+    font-weight: 300;
+}
+@font-face{
+    font-family:"Verdana";
+    src:url("../fonts/Verdana-W05-Regular.woff2") format("woff2"),
+    url("../fonts/Verdana-W05-Regular.woff") format("woff");
+    font-style: normal;
+    font-weight: 400;
+}
+@font-face{
+    font-family:"Verdana";
+    src:url("../fonts/Verdana-W05-Bold.woff2") format("woff2"),
+        url("../fonts/Verdana-W05-Bold.woff") format("woff");
+    font-style: normal;
+    font-weight: 700;
+}
+.verdana { font-family: 'Verdana'; }
+.verdana-light { font-family: 'Verdana'; font-weight: lighter; }

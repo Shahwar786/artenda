@@ -1,0 +1,143 @@
+@media print {
+    @page {
+        size: 21cm 29.7cm;
+        margin: 1.5cm 2cm 2cm 2.5cm;
+    }
+
+    a[href]:after {
+        content: "";
+    }
+
+    section.tenderview .bottom-space-s {
+        padding-bottom: 2px;
+    }
+    section.tenderview .bottom-space-m {
+        padding-bottom: 5px;
+    }
+    section.tenderview .bottom-space-l {
+        padding-bottom: 8px;
+    }
+}
+
+.toggle-tenderdetails-more, .toggle-tenderdetails-less, .watchlist-add, .watchlist-remove {
+    cursor: pointer;
+    color: #606060;
+}
+
+.blurry * {
+   color: transparent !important;
+   text-shadow: 0 0 7px #000;
+}
+
+/* // SECTION TENDERSEARCH */
+section.tendersearch {
+    min-height: 120px ! important;
+    padding-top: 11px;
+}
+/* SECTION TENDERSEARCH // */
+
+
+/* // SECTION TENDERVIEW */
+section.tenderview {
+    min-height: 1350px;
+}
+
+section.tenderview .tendertype-row {
+    border-bottom: 1px solid #232323;
+}
+
+section.tenderview div.deadline {
+    padding: 0 6px;
+}
+@media (min-width: 1070px) {
+    section.tenderview div.deadline {
+        padding: 0 6px 0 3px;
+    }
+}
+
+section.tenderview div.information {
+    padding-right: 40px;
+}
+section.tenderview div.reward {
+    padding-right: 20px;
+}
+section.tenderview div.location {
+    padding-left: 20px;
+}
+
+section.tenderview .bottom-space {
+    height: 300px;
+}
+
+section.tenderview h4 {
+    font-size: 14px;
+    margin: 0 0 3px;
+    font-weight: bold;
+}
+
+section.tenderview p.segment {
+    margin: 8px 0 4px;
+    font-size: 14px;
+    color: #606060;
+}
+
+section.tenderview .thumbnail-box {
+    display: inline-block;
+    cursor: pointer;
+    width: 100px;
+    height: 100px;
+    background: no-repeat center center;
+    background-size: cover;
+    margin: 2px;
+    border: 1px solid #e0e0e0;
+}
+
+section.tenderview i.fa {
+    font-size: 11px;
+    margin-left: 4px;
+    margin-right: 2px;
+}
+
+section .tiny {
+    font-size: 10px;
+}
+
+section.tenderview .bottom-space-s {
+    padding-bottom: 8px;
+}
+section.tenderview .bottom-space-m {
+    padding-bottom: 18px;
+}
+section.tenderview .bottom-space-l {
+    padding-bottom: 32px;
+}
+
+@media (max-width: 1070px) {
+    section.tenderview img {
+        width: 150px;
+        height: 150px;
+    }
+}
+
+@media (max-width: 1065px) {
+    section.tenderview {
+        padding: 3px 10px;
+    }
+    section.tenderview div.col {
+        padding-left: 5px;
+    }
+    section.tenderview div.location {
+        padding-left: 5px;
+    }
+    section.tenderview p {
+        font-size: 12px;
+    }
+    section.tenderview p.segment {
+        font-size: 12px;
+        margin: 15px 0 5px;
+    }
+    .tender-footer {
+        margin-top: 20px;
+    }
+}
+/* SECTION TENDERVIEW // */

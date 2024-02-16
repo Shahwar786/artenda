@@ -1,0 +1,152 @@
+.close-item-btn {
+    background: url('/img/icons/close.svg') no-repeat center center;
+    background-size: contain;
+    border: none;
+    cursor: pointer;
+    width: 14px;
+    height: 14px;
+}
+
+.delete-item-btn {
+    background: url('/img/icons/close.svg') no-repeat center center;
+    background-size: contain;
+    border: none;
+    cursor: pointer;
+    width: 14px;
+    height: 14px;
+}
+
+.duplicate-item-btn {
+    background: url('/img/icons/duplicate.svg') no-repeat center center;
+    background-size: contain;
+    border: none;
+    cursor: pointer;
+    width: 14px;
+    height: 14px;
+}
+
+.move-item-btn {
+    background: url('/img/icons/move.svg') no-repeat center center;
+    background-size: contain;
+    border: none;
+    cursor: pointer;
+    width: 14px;
+    height: 14px;
+}
+
+.move-list-item-btn {
+    background: url('/img/icons/move.svg') no-repeat center center;
+    background-size: contain;
+    border: none;
+    cursor: pointer;
+    width: 14px;
+    height: 14px;
+}
+
+.field-section>* {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+
+/* Fields Right Menu */
+.form-element-item {
+    display: flex;
+    padding: 5px 3px;
+    border-radius: 3px;
+}
+
+.form-element-item:hover {
+    background-color: #eee;
+    cursor: pointer;
+}
+
+.flexed {
+    display:flex;
+}
+
+.inline-label .control-label {
+    flex: 1;
+}
+
+
+
+.inline-items {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+/* Fields */
+
+.field-heading {
+    font-weight: 500;
+}
+
+.field-heading[contenteditable="true"]:focus {
+    outline: none;
+}
+
+.field-description {
+    color: #767676;
+}
+
+.field-description[contenteditable="true"]:focus {
+    outline: none;
+}
+
+.field-input {
+    background-color: #f5f5f5;
+    color: #949494;
+}
+
+.width-30 {
+    width: 30%;
+}
+
+
+/* Radio */
+
+.radio-options span {
+    font-weight: 400;
+    margin-left: 10px;
+}
+
+.list-group {
+    list-style: none;
+    padding-left: 0;
+}
+
+.list-group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 15px;
+    border-bottom: 1px solid #ccc;
+}
+
+.item-content {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+}
+
+.item-buttons {
+    margin-left: 10px;
+}
+
+.add-option-btn {
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.form-element-icon {
+    width: 18px;
+    height: 18px;
+    object-fit: contain;
+}
+.form-element-icon {
+    width: 18px;
+    height: 18px;
+    object-fit: contain;
+}
